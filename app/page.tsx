@@ -183,52 +183,12 @@ export default function Home() {
             Featured <span className="text-emerald-400">Projects</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div data-aos="fade-up" data-aos-delay="100">
-              <ProjectCard
-                title="E-Commerce Platform"
-                description="A full-featured online store with product listings, cart functionality, and secure checkout."
-                technologies={["React", "MongoDB", "Node.js", "Express"]}
-                image="/placeholder.svg?height=400&width=600"
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="200">
-              <ProjectCard
-                title="Social Media Dashboard"
-                description="Analytics dashboard for social media managers with real-time data visualization."
-                technologies={["React", "Tailwind CSS", "Chart.js", "Firebase"]}
-                image="/placeholder.svg?height=400&width=600"
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="300">
-              <ProjectCard
-                title="Task Management App"
-                description="Collaborative task manager with drag-and-drop interface and team collaboration features."
-                technologies={["React", "MongoDB", "Socket.io"]}
-                image="/placeholder.svg?height=400&width=600"
-              />
-            </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <ProjectCard
                 title="Decentral-Fund"
-                description="Real-time weather forecasting app with location detection and animated visualizations."
-                technologies={["JavaScript", "CSS", "Weather API", "Geolocation API"]}
+                description="A decentralized funding platform designed to connect projects with global backers through transparent, blockchain-powered smart contracts. Built for trust, accessibility, and community-driven impact"
+                technologies={["JavaScript", "Blockchain",]}
                 image="https://pbs.twimg.com/media/GkgYp1_WsAAObjA?format=jpg&name=large"
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="500">
-              <ProjectCard
-                title="Portfolio Website"
-                description="Responsive portfolio website showcasing projects and skills with modern design."
-                technologies={["React", "Tailwind CSS", "Framer Motion"]}
-                image="/placeholder.svg?height=400&width=600"
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="600">
-              <ProjectCard
-                title="Recipe Finder"
-                description="Search and save recipes with filtering options and personalized recommendations."
-                technologies={["React", "CSS", "Food API", "LocalStorage"]}
-                image="/placeholder.svg?height=400&width=600"
               />
             </div>
           </div>
@@ -242,7 +202,7 @@ export default function Home() {
             Client <span className="text-emerald-400">Testimonials</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
+            {[1].map((i) => (
               <div
                 key={i}
                 className="bg-zinc-800/50 p-6 rounded-lg border border-zinc-700 transform transition-all duration-300 hover:border-emerald-400 hover:-translate-y-2"
@@ -252,8 +212,8 @@ export default function Home() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-700 mr-4"></div>
                   <div>
-                    <h3 className="font-semibold">Client Name</h3>
-                    <p className="text-zinc-400 text-sm">Company Position</p>
+                    <h3 className="font-semibold">Sisco Ask</h3>
+                    <p className="text-zinc-400 text-sm">Cloud Engineer</p>
                   </div>
                 </div>
                 <p className="text-zinc-300">
