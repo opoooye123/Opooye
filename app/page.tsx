@@ -282,19 +282,19 @@ export default function Home() {
               </div>
               <div className="flex space-x-4 mt-8">
                 <a
-                  href="#"
+                  href="https://github.com/opoooye123"
                   className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center hover:bg-emerald-500 transition-all duration-300 hover:scale-110"
                 >
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/opooye-olamilekan-28522a2b6/"
                   className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center hover:bg-emerald-500 transition-all duration-300 hover:scale-110"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/2348052455193"
                   className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center hover:bg-emerald-500 transition-all duration-300 hover:scale-110"
                 >
                   <svg
