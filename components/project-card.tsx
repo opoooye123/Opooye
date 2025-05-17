@@ -7,9 +7,11 @@ interface ProjectCardProps {
   description: string
   technologies: string[]
   image: string
+  demoLink: string
+  codeLink: string
 }
 
-export default function ProjectCard({ title, description, technologies, image }: ProjectCardProps) {
+export default function ProjectCard({ title, description, technologies, image, demoLink, codeLink }: ProjectCardProps) {
   return (
     <div className="bg-zinc-800/50 rounded-lg overflow-hidden border border-zinc-700 group hover:border-emerald-400/50 transition-all duration-500 hover:-translate-y-2">
       <div className="relative h-48 overflow-hidden">
@@ -28,7 +30,7 @@ export default function ProjectCard({ title, description, technologies, image }:
                 className="border-zinc-600 bg-zinc-900/80 hover:border-emerald-400 hover:text-emerald-400"
               >
                 <Github className="w-4 h-4 mr-2" />
-                Code
+                <a href={codeLink} target="_blank" rel="noopener noreferrer">Code</a>
               </Button>
               <Button
                 variant="outline"
@@ -36,7 +38,7 @@ export default function ProjectCard({ title, description, technologies, image }:
                 className="border-zinc-600 bg-zinc-900/80 hover:border-emerald-400 hover:text-emerald-400"
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
-                Demo
+                <a href={demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
               </Button>
             </div>
           </div>

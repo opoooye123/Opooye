@@ -151,6 +151,9 @@ export default function Home() {
             <div data-aos="zoom-in" data-aos-delay="200">
               <SkillBadge name="JavaScript" icon="javascript" />
             </div>
+            <div data-aos="zoom-in" data-aos-delay="200">
+              <SkillBadge name="Express" icon="expres" />
+            </div>
             <div data-aos="zoom-in" data-aos-delay="250">
               <SkillBadge name="React" icon="react" />
             </div>
@@ -189,6 +192,8 @@ export default function Home() {
                 description="A decentralized funding platform designed to connect projects with global backers through transparent, blockchain-powered smart contracts. Built for trust, accessibility, and community-driven impact"
                 technologies={["JavaScript", "Blockchain",]}
                 image="https://pbs.twimg.com/media/GkgYp1_WsAAObjA?format=jpg&name=large"
+                demoLink="https://sat-bounty-stylus.vercel.app/"
+                codeLink="https://github.com/opoooye123/sat-bounty-stylus"
               />
             </div>
           </div>
@@ -210,7 +215,7 @@ export default function Home() {
                 data-aos-delay={i * 100}
               >
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-700 mr-4"></div>
+                  <img className="w-12 h-12 rounded-full bg-zinc-700 mr-4" src="https://pbs.twimg.com/profile_images/1921136794310967296/cHNWKfbo_400x400.jpg" alt="" />
                   <div>
                     <h3 className="font-semibold">Sisco Ask</h3>
                     <p className="text-zinc-400 text-sm">Cloud Engineer</p>
