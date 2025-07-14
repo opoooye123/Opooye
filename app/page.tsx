@@ -299,7 +299,7 @@ export default function Home() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/234810 994 7805"
+                  href="https://wa.me/2348109947805"
                   className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center hover:bg-emerald-500 transition-all duration-300 hover:scale-110"
                 >
                   <svg
