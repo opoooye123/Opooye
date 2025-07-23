@@ -1,5 +1,9 @@
 "use server"
 
+import { Resend } from "resend"
+
+const resend = new Resend(process.env.RESEND_API_KEY)
+
 interface ContactFormData {
   name: string
   email: string
@@ -8,30 +12,26 @@ interface ContactFormData {
 }
 
 export async function sendContactEmail(formData: ContactFormData) {
-  try {
-    // In a real implementation, you would use a service like Nodemailer, SendGrid, etc.
-    // For now, we'll just log the data and simulate a successful email send
+  const { name, email, subject, message } = formData
 
-    console.log("Sending email with data:", {
-      to: "amnotpissed@gmail.com",
-      from: formData.email,
-      subject: `Portfolio Contact: ${formData.subject}`,
+  try {
+    const response = await resend.emails.send({
+      from: "Portfolio Contact <onboarding@resend.dev>", // ✅ this must stay static
+      to: process.env.EMAIL_TO || "amnotpissed@gmail.com",
+      subject: `Portfolio Contact: ${subject}`,
       text: `
-        Name: ${formData.name}
-        Email: ${formData.email}
-        
-        Message:
-        ${formData.message}
+Name: ${name}
+Email: ${email}
+
+Message:
+${message}
       `,
     })
 
-    // Simulate network delay
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-
-    // Return success
+    console.log("Resend response:", response)
     return { success: true }
   } catch (error) {
-    console.error("Failed to send email:", error)
-    throw new Error("Failed to send email. Please try again later.")
+    console.error("Resend failed:", error)
+    throw new Error("Failed to send message. Please try again later.")
   }
 }
