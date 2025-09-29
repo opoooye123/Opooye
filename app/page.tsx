@@ -80,7 +80,7 @@ export default function Home() {
           <div className="flex justify-center" data-aos="fade-left" data-aos-duration="1000">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-400/20 animate-pulse-slow">
               <Image
-                src="https://pbs.twimg.com/profile_images/1921136794310967296/cHNWKfbo_400x400.jpg"
+                src="blob:https://web.whatsapp.com/32ad1f0f-79f4-4b61-9595-f2651d1e6f81"
                 alt="Opooye Olamilekan profile"
                 fill
                 className="object-cover"
