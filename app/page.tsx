@@ -80,7 +80,7 @@ export default function Home() {
           <div className="flex justify-center" data-aos="fade-left" data-aos-duration="1000">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-400/20 animate-pulse-slow">
               <Image
-                src="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/589717589_122133416090974315_4581953734528586864_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFjM5nryPORcO4t7JwKFnw0ePt9GLUmH6Z4-30YtSYfpsHpt_3jZ-Xg2oUm8UVXJr7jf9riBSB_jzQAN48KGSgt&_nc_ohc=GSms2LRxW7wQ7kNvwHipgwH&_nc_oc=AdlI9PZSUbaq_SnLgamFvQGQKHGCvmdsmJaTSdZfX4709HNjagMrDcO-KY1DqL3Ylws&_nc_zt=23&_nc_ht=scontent-los2-1.xx&_nc_gid=2YQPLh7PVVmaOFxDMCyaCw&oh=00_AfnmBLApOCHjKIBzLLnUoWKuK2m06p0OBt2VE5m5ZvhvgA&oe=694AF0F3"
+                src="https://media.licdn.com/dms/image/v2/D4D03AQH3LrltA1q4Yg/profile-displayphoto-crop_800_800/B4DZp4jbULIEAM-/0/1762959147028?e=1767830400&v=beta&t=W0N90RxKrILBHnpcB3ry0gLU17fOsvWDwAU-0Tza8Is"
                 alt="Opooye Olamilekan profile"
                 fill
                 className="object-cover"
