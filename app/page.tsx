@@ -80,7 +80,7 @@ export default function Home() {
           <div className="flex justify-center" data-aos="fade-left" data-aos-duration="1000">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-400/20 animate-pulse-slow">
               <Image
-                src="blob:https://web.whatsapp.com/32ad1f0f-79f4-4b61-9595-f2651d1e6f81"
+                src="https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/575292923_17865176058489654_5171020880375788673_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QEc8fsZAudq3mxVzFT3ewhkTrn4SfyL5mPI-AHIardwx4YCL0rYZ1lI6tovE_6Qoa4&_nc_ohc=s5C4xpsotqAQ7kNvwGbTlWU&_nc_gid=97iONZgv4x_oaFazkxz9Yg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfnXjWjYXSFXBiLuf88QJ3pNxCEEc_TY3u3ylIie1GCwKw&oe=694B0377&_nc_sid=10d13b"
                 alt="Opooye Olamilekan profile"
                 fill
                 className="object-cover"
