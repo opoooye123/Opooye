@@ -80,7 +80,7 @@ export default function Home() {
           <div className="flex justify-center" data-aos="fade-left" data-aos-duration="1000">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-400/20 animate-pulse-slow">
               <Image
-                src="https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/575292923_17865176058489654_5171020880375788673_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QEc8fsZAudq3mxVzFT3ewhkTrn4SfyL5mPI-AHIardwx4YCL0rYZ1lI6tovE_6Qoa4&_nc_ohc=s5C4xpsotqAQ7kNvwGbTlWU&_nc_gid=97iONZgv4x_oaFazkxz9Yg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfnXjWjYXSFXBiLuf88QJ3pNxCEEc_TY3u3ylIie1GCwKw&oe=694B0377&_nc_sid=10d13b"
+                src="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/589717589_122133416090974315_4581953734528586864_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFjM5nryPORcO4t7JwKFnw0ePt9GLUmH6Z4-30YtSYfpsHpt_3jZ-Xg2oUm8UVXJr7jf9riBSB_jzQAN48KGSgt&_nc_ohc=GSms2LRxW7wQ7kNvwHipgwH&_nc_oc=AdlI9PZSUbaq_SnLgamFvQGQKHGCvmdsmJaTSdZfX4709HNjagMrDcO-KY1DqL3Ylws&_nc_zt=23&_nc_ht=scontent-los2-1.xx&_nc_gid=2YQPLh7PVVmaOFxDMCyaCw&oh=00_AfnmBLApOCHjKIBzLLnUoWKuK2m06p0OBt2VE5m5ZvhvgA&oe=694AF0F3"
                 alt="Opooye Olamilekan profile"
                 fill
                 className="object-cover"
